@@ -21,7 +21,7 @@ setup(name='django-prodperfect',
       zip_safe=False,
       license='MIT',
       install_requires=[
-          'django>=1.10'
+          'django>=1.11'
       ],
       classifiers=[
           "Programming Language :: Python :: 3",
