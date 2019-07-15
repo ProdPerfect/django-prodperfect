@@ -20,6 +20,34 @@ Django template tags for the ProdPerfect tracking snippet.
 </body>
 ```
 
+## Example settings.py
+You can copy these values from the ProdPerfect provided tracking snippet.
+```python
+PRODPERFECT = {
+    'HOST': 'prodperfect.datapipe.prodperfect.com/v1',
+    'WRITE_KEY': '12345',
+    'PROJECT_ID': '12345',
+    'TRACKING_LIBRARY_URL': 'https://prodperfect.trackinglibrary.prodperfect.com/keen-tracking.min.js'
+}
+```
+
+To override the default tracking behavior, you can change the value of the following properties.
+```python
+PRODPERFECT = {
+    # ...
+    'OPTIONS': {
+        'ignoreDisabledFormFields': False,
+        'recordClicks': True,
+        'recordFormSubmits': True,
+        'recordInputChanges': True,
+        'recordPageViews': True,
+        'recordPageUnloads': True,
+        'recordScrollState': True
+    }
+}
+
+```
+
 
 ## Bugs and suggestions
 
