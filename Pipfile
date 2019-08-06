@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 twine = "*"
+versionner = "*"
 
 [packages]
 django = ">=2.2.4"
