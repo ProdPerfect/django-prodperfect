@@ -7,7 +7,7 @@ verify_ssl = true
 twine = "*"
 
 [packages]
-django = "*"
+django = ">=2.2.4"
 
 [requires]
 python_version = "3.7"
