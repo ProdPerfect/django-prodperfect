@@ -8,7 +8,7 @@ twine = "*"
 versionner = "*"
 
 [packages]
-django = "*"
+django = "<=3"
 
 [requires]
 python_version = "3.7"
