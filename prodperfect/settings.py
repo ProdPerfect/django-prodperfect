@@ -11,7 +11,8 @@ DEFAULT_OPTIONS = {
     'recordInputChanges': True,
     'recordPageViews': True,
     'recordPageUnloads': True,
-    'recordScrollState': True
+    'recordScrollState': True,
+    'shareUuidAcrossDomains': True
 }
 
 _PRODPERFECT = app_settings.PRODPERFECT
